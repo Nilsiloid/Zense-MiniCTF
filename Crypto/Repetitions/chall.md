@@ -17,4 +17,4 @@ This is a Crypto challenge that introduces the concept of Base64 encoding and de
 Can you make sense of this file?
 ```
 
-[enc_flag](https://github.com/Nilsiloid/Zense-MiniCTF/Crypto/Repetitions/enc_flag)
+[enc_flag](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Crypto/Repetitions/enc_flag)
