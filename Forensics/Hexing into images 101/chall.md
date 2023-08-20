@@ -1,21 +1,22 @@
 # Commitment
 
-Author: [Nilay](https://github.com/Nilsiloid)
+Author: [Vijay](https://github.com/vijay-jaisankar)
 
 ## Description
 
-This is a Forensics challenge that showcases the use of exiftool on images.
+This is a Forensics challenge that showcases the hex data of images.
 
 ## Requirements
 
-- Exiftool
-- Base64 decoder
-- Ability to Google(most important)
+- knowledge of "strings" command
+- knowledge of hex editor
 
 ## Challenge Description
 
 ```
-Lionel Messi, the legendary footballer, has hidden an important message within one of his iconic photos using the power of technology. He spent a whole 64 minutes in his BASEment encrypting his message. He's known for his incredible skills on the field, but can you decode his cryptic message hidden in the digital realm?
+Boli and Godu are hitting it big with their project! Inspired by the success of the project, a mysterious “Crabby” steps in and sends a brand image over. Given only their brand image, can you find out Crabby’s true Artist’s name?
 
-Flag Format : ZenseCTF{....}
+Flag format : ZENSE{CRABBY'S_REAL_IDENTITY}
 ```
+
+Attachment : [brand_image.png](http://ctf.iiitb.net/challenges#Doom-14)

@@ -1,13 +1,31 @@
 # Solution
 
-Pay close attention to the challenge name. E-X-I-F is highlighted. This points to exiftool, a tool used for reading, writing and manipulating image, audio, video and PDF metadata. Using exiftool on the png image provided in the challenge would lead to a weird encoding of some sort in the Creator entity.
+There are 3 ways to solve this challenge.
+1. Using unzip command
+```
+unzip doom.png
+```
+trying the above command in terminal will lead to a "flag.txt" file being created in the same directory as where you ran the command(ensure doom.png is also there in the given directory, else you will get errors). Opening flag.txt in any text editor will display the flag.
 <br />
 
-Upon seeing it, it looked to be of Base64 encoding, which in fact is pointed to in the challenge description where it says Messi spent 64 minutes encoding this in his BASEment. Thus, upon decoding it using Base64 decoder, we get the flag.
+2. using strings command
+```
+strings doom.png | grep ZenseCTF
+```
+trying the above command in terminal will directly give you the flag in the terminal itself. grep essentially searches for any string in the output provided by strings command that has the substring mentioned - here, "ZenseCTF".
+If we check the output by using strings doom.png > out.txt, we will see the flag [here](lol.com)
+<br />
+
+3. using binwalk command
+```
+binwalk doom.png
+binwalk -e doom.png(to extract)
+```
+binwalk command is used to see the file contents of a specified file. When we run binwalk on doom.png, we see a lot of hidden files. Thus, we will use the -e command to extract these hidden files. Upon running this command, a new directory called "_doom.png.extracted" will be formed containing flag.txt and a zip file. Opening flag.txt leads us to the flag.
 <br />
 
 The flag is:
 
 ```
-ZenseCTF{Me5sI_I5_th3_g04t}
+ZenseCTF{5t3g_b3g1nn3r!}
 ```

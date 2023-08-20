@@ -1,21 +1,23 @@
 # Commitment
 
-Author: [Nilay](https://github.com/Nilsiloid)
+Author : [Icarus](https://github.com/Icarus131)
 
 ## Description
 
-This is a Forensics challenge that showcases the use of exiftool on images.
+This is a Forensics challenge that showcases the use of the command unzip on images.
 
 ## Requirements
 
-- Exiftool
-- Base64 decoder
-- Ability to Google(most important)
+- knowledge of unzip command
+- knowledge of strings and grep command.
+- knowledge of binwalk command(another way to solve the chall)
 
 ## Challenge Description
 
 ```
-Lionel Messi, the legendary footballer, has hidden an important message within one of his iconic photos using the power of technology. He spent a whole 64 minutes in his BASEment encrypting his message. He's known for his incredible skills on the field, but can you decode his cryptic message hidden in the digital realm?
+Zipping your way through the challenges, huh?? Let's see if you can figure this out then.
 
-Flag Format : ZenseCTF{....}
+Flag format : ZenseCTF{...}
 ```
+
+Attachment - [doom.png](lo.com)
