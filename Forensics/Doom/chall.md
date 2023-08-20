@@ -20,4 +20,4 @@ Zipping your way through the challenges, huh?? Let's see if you can figure this 
 Flag format : ZenseCTF{...}
 ```
 
-Attachment - [doom.png](lo.com)
+Attachment - [doom.png](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Forensics/Doom/doom.png)

@@ -19,4 +19,4 @@ Boli and Godu are hitting it big with their project! Inspired by the success of 
 Flag format : ZENSE{CRABBY'S_REAL_IDENTITY}
 ```
 
-Attachment : [brand_image.png](http://ctf.iiitb.net/challenges#Doom-14)
+Attachment : [brand_image.png](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Forensics/Hexing%20into%20images%20101/brand_image.png)

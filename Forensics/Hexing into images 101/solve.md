@@ -11,7 +11,7 @@ hexedit brand_image.png
 
 Either of the above two commands will lead us to solving the challenge.
 If you run the strings command, you will notice this very weird statement on the 6th line - V3G_BXRIYANI_MATT3RS, followed by ZENSE on the 9th line. This is in fact our answer!
-If you run the hexedit command, you will see the following in your terminal - [hex_data.png](l.com). Here you can notice the words Zense and just above it V3G_BXRIYANI_MATT3RS. This leads us to believe that V3G_BXRIYANI_MATT3RS is the true artist name of CRABBY and we are in fact correct!
+If you run the hexedit command, you will see the following in your terminal - [hex_data.png](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Forensics/Hexing%20into%20images%20101/hex_data.png). Here you can notice the words Zense and just above it V3G_BXRIYANI_MATT3RS. This leads us to believe that V3G_BXRIYANI_MATT3RS is the true artist name of CRABBY and we are in fact correct!
 <br />
 
 The flag is:

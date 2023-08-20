@@ -13,7 +13,7 @@ trying the above command in terminal will lead to a "flag.txt" file being create
 strings doom.png | grep ZenseCTF
 ```
 trying the above command in terminal will directly give you the flag in the terminal itself. grep essentially searches for any string in the output provided by strings command that has the substring mentioned - here, "ZenseCTF".
-If we check the output by using strings doom.png > out.txt, we will see the flag [here](lol.com)
+If we check the output by using strings doom.png > out.txt, we will see the flag [here](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Forensics/Doom/strings_data.png)
 <br />
 
 3. using binwalk command
