@@ -18,4 +18,4 @@ Boli and his teammate Godu have been working on their C project submission – G
 Flag format : ZENSE{...}
 ```
 
-Attachment : [hello](test)
+Attachment : [hello](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Rev/Code%20Execution%20Conundrum/hello)

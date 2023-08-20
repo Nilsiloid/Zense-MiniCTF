@@ -19,5 +19,5 @@ Flag format : ZenseCTF{...}
 ```
 
 Attachment : 
-[chall.py](test)
-[output.txt](test)
+[chall.py](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Rev/Flag%20Extraction%3F%3F/chall.py)
+[output.txt](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Rev/Flag%20Extraction%3F%3F/output.txt)

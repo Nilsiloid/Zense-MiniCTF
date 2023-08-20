@@ -12,7 +12,7 @@ subtract 1 at even index and add 1 at odd index.
 ```
 <br />
 
-This has been done using the following python script - [solve.py](test)
+This has been done using the following python script - [solve.py](https://github.com/Nilsiloid/Zense-MiniCTF/blob/main/Rev/Flag%20Extraction%3F%3F/solve.py)
 
 The flag is:
 ```
